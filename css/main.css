@@ -3,10 +3,16 @@
 }
 
 header {
-    background-color: rgb(232, 181, 240);
-    padding: 10px;
-    /* position: sticky; */
+    /* background-color: rgb(247, 141, 198); */
+    background-color: rgb(247, 141, 198);
+    /* background-image: url(../images/background.svg); */
+    position: sticky;
     top: 0;
+}
+   
+header nav ul {
+    list-style-type: none;
+    margin-top: 45px;
 }
 
 #main-logo {
@@ -16,8 +22,70 @@ header {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../images/background.svg);
+    background-color: rgba(212, 189, 251, 0.823);
+    background-image: url(../images/background2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid white;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: left;
+}
+
+article h2 {
+    color: rgb(0, 0, 0);
+    padding: 4px 8px;
+}
+
+article:first-of-type {
+    border: 4px solid rgb(255, 255, 255);
+}
+
+#inprogress {
+    border: 4px solid rgb(255, 255, 255);
+}
+
+#inprogress {
+    color: rgb(0, 0, 0);
+}
+
+#done {
+    border: 4px solid rgb(255, 255, 255);
+}
+
+#done h2 {
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 6px 8px;
+    text-transform: uppercase;
+}
+
+.todo li:nth-child(odd) {
+    background-color: rgba(199, 217, 121, 0.2);
+}
+
+.inprogress li:nth-child(odd) {
+    background-color: rgb(62, 158, 227);
+}
+
+.done li:nth-child(odd) {
+    background-color: rgb(227, 208, 62);
 }
