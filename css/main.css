@@ -4,7 +4,7 @@
 
 header {
     /* background-color: rgb(247, 141, 198); */
-    background-color: rgb(247, 141, 198);
+    background-color: rgba(255, 125, 162, 0.68);
     /* background-image: url(../images/background.svg); */
     /* position: sticky; */
     top: 0;
@@ -22,10 +22,11 @@ header nav ul {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
     /* background-image: url(../images/background2.jpg); */
     /* background-image: url(../images/background3.jpg); */
     /* background-image: url(../images/background8.jpeg); */
+    background-image: url(../images/background12.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -33,7 +34,7 @@ body {
 
 main {
     background-color: rgba(240, 114, 177, 0);
-    background-image: url(../images/background7.jpeg);
+    /* background-image: url(../images/background12.jpeg); */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -95,7 +96,7 @@ ul li {
 }
 
 footer{
-    background-color: rgb(240, 114, 177);
+    background-color: rgba(255, 125, 162, 0.68);
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
