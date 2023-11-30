@@ -15,7 +15,9 @@ In this repo can help you for time management and useful for develop time.
 
 ## History
 
-28th November 2023, research the photo
+28th November 2023, Research the photo
+29th November 2023, Add the structure
+30th November 2023, Done progress
 
 ## Credits
 
